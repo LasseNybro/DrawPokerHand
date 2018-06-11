@@ -8,6 +8,5 @@ class ResetDeck:
             if j<3:
                 f.write("{0}{1} \t".format(Suite[j],Value[i])) # Writes to the Deck.txt file
             else:
-                print("newline")
                 f.write("{0}{1} \r\n".format(Suite[j],Value[i])) # Makes sure the next value starts on a new line
     f.close() # Closes the file Deck.txt
